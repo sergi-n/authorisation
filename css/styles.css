@@ -1,0 +1,63 @@
+@font-face {
+    font-family: 'Arial';
+    src: url('../fonts/bpg-arial-webfont.ttf');
+}
+
+@font-face {
+    font-family: 'Glaho';
+    src: url('../fonts/bpg-glaho-webfont.ttf');
+}
+
+body {
+    margin: 0;
+    background-color: rgba(28, 159, 255, 0.1)
+}
+
+table,
+td {
+    border-spacing: 0;
+    padding: 0;
+}
+
+.login_container {
+    margin: 100px auto 0;
+    width: 500px;
+    height: 500px;
+    border-radius: 30px;
+    /* border: 1px solid coral; */
+    box-shadow: 10px 10px 10px -5px rgba(128, 128, 128, 0.5);
+}
+
+.introduction {
+    width: 50%;
+    border-radius: 30px;
+    /* border: 1px solid coral; */
+    vertical-align: top;
+    overflow: hidden;
+    background-color: rgba(255, 255, 255, 1);
+    box-shadow: 10px 0 10px -10px rgba(128, 128, 128, 0.1);
+}
+
+.introduction .title {
+    font-family: 'Glaho';
+    font-size: 50px;
+    color: rgba(28, 159, 255, 1);
+}
+
+.introduction .subtitle {
+    font-family: 'Glaho';
+    font-size: 20px;
+    color: rgba(123, 128, 137, 1)
+}
+
+.login_form_container {
+    width: 50%;
+    text-align: center;
+    vertical-align: top;
+}
+
+.login_form_container .title {
+    font-family: 'Arial';
+    font-size: 20px;
+    text-align: center;
+}
